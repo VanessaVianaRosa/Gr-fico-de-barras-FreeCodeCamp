@@ -1,0 +1,56 @@
+* {
+  font-family: 'Hepta Slab', serif;
+}
+​
+body {
+  padding: 30px;
+}
+​
+svg {
+  
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+​
+.bar:hover {
+  fill: dodgerblue;
+}
+​
+h2 {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+​
+#subhead {
+  font-weight: 200;
+  font-size: 14px;
+  display: block;
+  max-width: 1000px;
+}
+​
+#tooltip {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 200px;
+  height: 90px;
+  background:#4682B4;
+  border-radius: 3px;
+  padding: 10px 0;
+}
+​
+p {
+  display: block;
+  text-align: center;
+}
+​
+.hide {
+  opacity: 0;
+  transition: opacity .5s;
+}
+​
+.show {
+  opacity: 1;
+  transition: opacity .5s;
+}
